@@ -32,4 +32,5 @@ async function conectar() {
     filename:'./teste.db',
     driver: sqlite.Database
   })
+  return db
 }
